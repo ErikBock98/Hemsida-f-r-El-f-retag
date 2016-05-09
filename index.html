@@ -1,2 +1,99 @@
+<!DOCTYPE html>
 
-<h1> Example Page </h1>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  type="text/css" href="main.css">
+
+    <title>Startsida</title>
+
+    <link rel="stylesheet" href="CSS/unslider.css">
+    <link rel="stylesheet" href="CSS/unslider-dots.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat|Passion+One|Candal' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+
+    <form>
+        <input type="text" name="Searchbar">
+        <input type="submit" name="submit" value="Sök">
+    </form>
+
+    <div id="topleft">
+
+    <a href="" ><h1>Om oss</h1></a>
+    <a href="" ><h1>Kundvagn</h1></a>
+    <a href="" ><h1>Support</h1></a>
+
+    </div>
+
+    <h1>Elektronik & Media AB</h1>
+
+</header>
+
+<nav>
+    <a href="" ><h1>TV</h1></a>
+    <a href="" ><h1>Datorer</h1></a>
+    <a href="" ><h1>Vitvaror</h1></a>
+    <a href="" ><h1>Foto</h1></a>
+    <a href="" ><h1>Annat</h1></a>
+</nav>
+
+<section>
+
+    <div id="row">
+
+    <article class="rightpicture">
+        <img src="img/TV.png" alt="TV"/>
+    </article>
+
+    <article class="rightpicture">
+        <img src="img/Mikro.png" alt="Mikrovågsugn"/>
+    </article>
+
+        </div>
+
+    <div id="leftpicture">
+
+    <article class="my-slider">
+    <ul>
+        <li><img src="img/rsz_bärbar_dator_1.png" alt="Bärbar Dator"/></li>
+        <li><img src="img/rsz_1iphone.png" alt="IPhone"/></li>
+        <li><img src="img/rsz_svart_kamera.png" alt="Svart Kamera"/></li>
+    </ul>
+    </article>
+
+        </div>
+
+
+
+</section>
+
+</div>
+
+
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="JavaScript/unslider.js"></script>
+
+<script>
+    jQuery(document).ready(function($) {
+        $('.my-slider').unslider({
+
+            autoplay: true,
+            arrows:false
+        })
+    });
+</script>
+
+</body>
+
+</html>
+
