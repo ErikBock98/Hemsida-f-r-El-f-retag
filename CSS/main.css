@@ -1,4 +1,8 @@
-
+@media handheld{
+    #row {
+        float: left;
+    }
+}
 
 
 @media screen {
