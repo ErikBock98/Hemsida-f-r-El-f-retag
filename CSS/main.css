@@ -1,6 +1,6 @@
 @media handheld{
     #row {
-        float: left;
+        width:960px;
     }
 }
 
@@ -24,7 +24,7 @@
     /* CSS för sidornas header */
     header h1 {
         font-family: Candal;
-        color: green;
+        color: darkblue;
     }
 
     header h1 a {
