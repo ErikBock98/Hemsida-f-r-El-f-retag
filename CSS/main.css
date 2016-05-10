@@ -76,7 +76,7 @@ nav h1 a {
 }
 
 
-@media handheld {
+@media screen and (max-width : 1224px) {
 
     #row {
         width: 720px;
@@ -124,7 +124,7 @@ section .unslider {
 
 }
 
-@media handheld {
+@media screen and (max-width : 1224px) {
 
     section #leftpicture {
         background-color: darkblue;
