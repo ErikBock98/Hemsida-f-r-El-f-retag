@@ -128,8 +128,7 @@ section .unslider {
     section #leftpicture {
         background-color: darkblue;
         border: 1px solid black;
-        width: 100%;
+        width: 720px;
         height: 620px;
-        display: block;
     }
 }
