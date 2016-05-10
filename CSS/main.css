@@ -66,19 +66,29 @@ nav h1 a {
 
     #row {
         float: right;
-}
 
-}
-@media handheld{
+    }
 
-    #row {
-        width:960px;
+    section .rightpicture img {
+        width: 400px;
+        height: 300px;
     }
 }
 
-section .rightpicture img {
-    width: 400px;
-    height: 300px;
+
+@media handheld {
+
+    #row {
+        width: 720px;
+        margin: auto;
+    }
+
+    section .rightpicture img {
+        width: 400px;
+        height: 300px;
+        margin: auto;
+    }
+
 }
 
 section .rightpicture {
@@ -114,7 +124,7 @@ section .unslider {
 
 }
 
-@media handheld{
+@media handheld {
 
     section #leftpicture {
         background-color: darkblue;
