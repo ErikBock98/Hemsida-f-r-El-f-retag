@@ -20,22 +20,24 @@ body {
 
 /* CSS för sidornas header */
 header h1 {
-    font-family: Candal;
+    font-family: Candal,sans-serif;
     color: darkblue;
 }
 
-header h1 a {
+header h2 a {
     text-decoration: none;
 }
 
-header #topleft h1 {
+header #topleft h2 {
     margin: 0 5px;
     float: right;
     display: block;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     color: white;
     border: 1px solid black;
     background-color: darkblue;
+    font-size: 30px;
+    padding:4px 5px;
 
 }
 
@@ -50,7 +52,7 @@ header form input {
 }
 
 /* CSS för menyrad */
-nav h1 {
+nav h2 {
     display: inline-block;
     margin: 0 8px;
     width: 170px;
@@ -58,9 +60,11 @@ nav h1 {
     border: 1px solid black;
     background-color: darkblue;
     color: white;
+    font-size:30px;
+    font-family: Montserrat, sans-serif;
 }
 
-nav h1 a {
+nav h2 a {
     text-decoration: none;
 }
 
@@ -80,20 +84,6 @@ nav h1 a {
 }
 
 
-@media screen and (max-width : 1224px) {
-
-    #row {
-        width: 100%;
-        margin: auto;
-    }
-
-    section .rightpicture img {
-        width: 400px;
-        height: 300px;
-        margin: auto;
-    }
-
-}
 
 section .rightpicture {
     border: 1px black solid;
@@ -133,6 +123,21 @@ section .unslider {
 
 @media screen and (max-width : 1224px) {
 
+
+
+        #row {
+            width: 100%;
+            margin: auto;
+        }
+
+        section .rightpicture img {
+            width: 400px;
+            height: 300px;
+            margin: auto;
+        }
+
+
+
     section #leftpicture {
         background-color: darkblue;
         border: 1px solid black;
@@ -150,4 +155,22 @@ section .unslider {
     section #leftpicture #my-slider ul {
         margin:auto;
     }
+}
+
+/* Css för produktsidornas bilder */
+
+#productPictures img {
+    height:300px;
+    width: 410px;
+    margin: 20px 20px;
+    padding: 10px;
+}
+
+#productPictures .PictureBorders {
+    background-color: darkblue;
+    border: 1px solid black;
+}
+
+#productPictures {
+    margin:auto;
 }
