@@ -161,14 +161,27 @@ section .unslider {
 
 #productPictures img {
     height:300px;
-    width: 410px;
-    margin: 20px 20px;
-    padding: 10px;
+    width: 400px;
+    margin: 20px 10px 0 10px;
+
 }
 
 #productPictures .PictureBorders {
     background-color: darkblue;
     border: 1px solid black;
+}
+
+#productPictures .PictureBorders h2 {
+    color:white;
+    text-align:center;
+    font-family: Montserrat, sans-serif;
+}
+
+.PictureBorders {
+    width:420px;
+    margin:20px;
+    float:left;
+
 }
 
 #productPictures {
