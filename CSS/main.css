@@ -224,6 +224,11 @@ section .unslider {
         float: left;
     }
 
+    #produktsida #namn h2 {
+        text-align:center;
+        font-size:30px;
+    }
+
     #produktsida #pris {
         float: left;
         margin: 20px 10px 20px 70px;
@@ -264,6 +269,11 @@ section .unslider {
         padding: 10px 30px;
         float:left;
 
+    }
+
+    #produktsida #namn h2 {
+        text-align:center;
+        font-size:40px;
     }
 
     #produktsida #pris {
