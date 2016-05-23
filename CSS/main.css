@@ -1,6 +1,12 @@
 
 * {
+    border-radius:10px;
+    font-family: Montserrat, sans-serif;
+    color:white;
+}
 
+* input {
+    border-radius:0px;
 }
 
 body {
@@ -32,8 +38,6 @@ header #topright h2 {
     margin: 0 5px;
     float: right;
     display: block;
-    font-family: Montserrat, sans-serif;
-    color: white;
     border: 1px solid black;
     background-color: darkblue;
     font-size: 25px;
@@ -49,6 +53,7 @@ header form {
 
 header form input {
     margin: 20px 3px;
+    color:black;
 }
 
 /* CSS för menyrad */
@@ -59,9 +64,7 @@ nav h2 {
     text-align: center;
     border: 1px solid black;
     background-color: darkblue;
-    color: white;
     font-size:30px;
-    font-family: Montserrat, sans-serif;
 }
 
 nav h2 a {
@@ -172,9 +175,7 @@ section .unslider {
 }
 
 #productPictures .PictureBorders h2 {
-    color:white;
     text-align:center;
-    font-family: Montserrat, sans-serif;
 }
 
 .PictureBorders {
@@ -200,13 +201,6 @@ section .unslider {
         margin: 30px 0px;
     }
 
-    #produktsida h2 {
-        color: white;
-    }
-
-    #produktsida p {
-        color: white;
-    }
 
     #produktsida #produktleft {
         width: 460px;
@@ -238,7 +232,6 @@ section .unslider {
     #produktsida a {
         margin: 55px 15px 20px 15px;
         border: 2px ridge white;
-        color: white;
         text-decoration: none;
         padding: 5px;
         background-color: blue;
@@ -254,14 +247,6 @@ section .unslider {
         background-color: darkblue;
         overflow: auto;
         margin: 30px 0;
-    }
-
-    #produktsida h2 {
-        color: white;
-    }
-
-    #produktsida p {
-        color: white;
     }
 
     #produktsida img {
@@ -285,7 +270,6 @@ section .unslider {
     #produktsida a {
         margin: 100px 10px 100px 20px;
         border: 2px ridge black;
-        color: white;
         text-decoration: none;
         padding: 30px;
         font-size:30px;
@@ -314,3 +298,54 @@ section .unslider {
         float: right;
     }
 }
+
+/* CSS för supportsidans formulär och bild */
+
+#rightside {
+    float:right;
+    margin: 20px 0px;
+}
+
+#leftside {
+    float:left;
+    background-color:darkblue;
+    margin: 20px 0px;
+    border: 1px solid black;
+}
+
+#rightside img {
+    width:496px;
+    height:400px;
+    margin: 20px 10px;
+    border:1px ridge black;
+}
+
+#leftside form {
+    margin: 20px 10px;
+    width:420px;
+}
+
+#leftside input {
+    margin:10px 5px;
+}
+
+
+#leftside textarea {
+    height:100px;
+    width:300px;
+    margin:10px 0px;
+    border-radius:0px;
+}
+
+#leftside a {
+    float:right;
+    margin:20px;
+    text-decoration:none;
+    font-size:20px;
+    border:1px ridge black;
+    background-color:blue;
+    padding:5px;
+}
+
+label{vertical-align:top;}
+
