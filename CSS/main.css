@@ -303,77 +303,160 @@ section .unslider {
 
 /* CSS för supportsidans formulär och bild */
 
-#rightside {
-    float:right;
-    margin: 20px 0px;
+@media screen and (min-width : 1224px) {
+
+    #rightside {
+        float: right;
+        margin: 20px 0px;
+    }
+
+    #leftside {
+        float: left;
+        background-color: darkblue;
+        margin: 20px 0px;
+        border: 1px solid black;
+    }
+
+    #rightside img {
+        width: 496px;
+        height: 400px;
+        margin: 20px 10px;
+        border: 1px ridge black;
+    }
+
+    #leftside form {
+        margin: 20px 10px;
+        width: 420px;
+    }
+
+    #leftside input {
+        margin: 10px 5px;
+        color: black;
+    }
+
+    #leftside textarea {
+        height: 100px;
+        width: 300px;
+        margin: 10px 0;
+        border-radius: 0;
+    }
+
+    #leftside a {
+        float: right;
+        margin: 20px;
+        text-decoration: none;
+        font-size: 20px;
+        border: 1px ridge black;
+        background-color: blue;
+        padding: 5px;
+    }
+
+    #leftside #textlabel {
+        vertical-align: top;
+    }
+
 }
 
-#leftside {
-    float:left;
-    background-color:darkblue;
-    margin: 20px 0px;
-    border: 1px solid black;
+@media screen and (max-width : 1224px) {
+
+    #rightside {
+        float: left;
+        margin: 20px 0;
+    }
+
+    #leftside {
+        float: left;
+        background-color: darkblue;
+        margin: 20px auto;
+        border: 1px solid black;
+        width:100%
+    }
+
+    #rightside img {
+        width: 800px;
+        height:600px;
+        margin: 20px 75px;
+        border: 1px ridge black;
+    }
+
+    #leftside form {
+        margin: auto;
+        width: 100%;
+    }
+
+    #leftside input {
+        margin: 10px 5px;
+        color: black;
+    }
+
+    #leftside textarea {
+        height: 100px;
+        width: 100%;
+        margin: 10px 0;
+        border-radius: 0;
+    }
+
+    #leftside a {
+        float: right;
+        margin: 20px;
+        text-decoration: none;
+        font-size: 20px;
+        border: 1px ridge black;
+        background-color: blue;
+        padding: 5px;
+    }
+
+    #leftside #textlabel {
+        vertical-align: top;
+    }
+
 }
-
-#rightside img {
-    width:496px;
-    height:400px;
-    margin: 20px 10px;
-    border:1px ridge black;
-}
-
-#leftside form {
-    margin: 20px 10px;
-    width:420px;
-}
-
-#leftside input {
-    margin:10px 5px;
-    color:black;
-}
-
-
-#leftside textarea {
-    height:100px;
-    width:300px;
-    margin:10px 0;
-    border-radius:0;
-}
-
-#leftside a {
-    float:right;
-    margin:20px;
-    text-decoration:none;
-    font-size:20px;
-    border:1px ridge black;
-    background-color:blue;
-    padding:5px;
-}
-
-#leftside #textlabel {
-    vertical-align:top;
-}
-
-
 
 /* CSS för tack sidan */
 
-#tacksida {
-    width:960px;
-    margin:auto;
+@media screen and (min-width : 1224px) {
+
+    #tacksida {
+        width: 960px;
+        margin: auto;
+    }
+
+    #tacksida h1 {
+        color: darkblue;
+        text-align: center;
+        font-family: Candal, sans-serif;
+    }
+
+    #tacksida a {
+        background-color: darkblue;
+        border: 1px ridge black;
+        text-decoration: none;
+        padding: 5px;
+        margin: 100px 50px 100px 375px;
+    }
+
 }
 
-#tacksida h1 {
-    color:darkblue;
-    text-align:center;
-    font-family:Candal, sans-serif;
-}
+@media screen and (max-width : 1224px) {
 
-#tacksida a {
-    background-color:darkblue;
-    border:1px ridge black;
-    text-decoration:none;
-    padding:5px;
-    margin:100px 50px 100px 375px;
-}
+    #tacksida {
+        width: 960px;
+        margin: auto;
+    }
 
+    #tacksida h1 {
+        color: darkblue;
+        text-align: center;
+        font-family: Candal, sans-serif;
+    }
+
+    #tacksida a {
+        background-color: darkblue;
+        border: 1px ridge black;
+        text-decoration: none;
+        padding: 5px;
+        font-size:40px;
+        margin: 100px 50px 100px 275px;
+    }
+
+}
