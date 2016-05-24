@@ -405,6 +405,11 @@ section .unslider {
         font-size:30px;
     }
 
+    #leftside fieldset {
+        margin:10px;
+        padding:10px;
+    }
+
     #leftside label {
         font-size:40px;
         width:300px;
@@ -483,3 +488,6 @@ section .unslider {
     }
 
 }
+
+/* CSS för Kundvagnen */
+
