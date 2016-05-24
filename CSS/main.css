@@ -264,7 +264,7 @@ section .unslider {
     }
 
     #produktsida #pris {
-        margin: 100px 100px 10px 50px;
+        margin: 50px 100px 10px 50px;
         font-size: 25px;
         float:right;
     }
@@ -369,7 +369,7 @@ section .unslider {
         background-color: darkblue;
         margin: 20px auto;
         border: 1px solid black;
-        width:100%
+        width:100%;
     }
 
     #rightside img {
@@ -387,6 +387,29 @@ section .unslider {
     #leftside input {
         margin: 10px 5px;
         color: black;
+        width:300px;
+        height:30px;
+    }
+
+    #leftside #knapp {
+        margin: 10px 5px;
+        color: black;
+        width:50px;
+    }
+
+    #leftside #special {
+       display:inline;
+    }
+
+    #leftside legend {
+        font-size:30px;
+    }
+
+    #leftside label {
+        font-size:40px;
+        width:300px;
+        display:block;
+        margin:5px;
     }
 
     #leftside textarea {
@@ -400,10 +423,10 @@ section .unslider {
         float: right;
         margin: 20px;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 40px;
         border: 1px ridge black;
         background-color: blue;
-        padding: 5px;
+        padding: 10px;
     }
 
     #leftside #textlabel {
