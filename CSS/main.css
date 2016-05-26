@@ -1,11 +1,11 @@
 
-* {
-    border-radius:10px;
+* {                                                 /* Blev mycket repetition av denna kod, så valde att göra det */
+    border-radius:10px;                             /* till standard */
     font-family: Montserrat, sans-serif;
     color:white;
 }
 
-* input {
+* input {                                           /* I detta fall blev det dock för fult med radius */
     border-radius:0;
 }
 
@@ -19,7 +19,7 @@ body {
     margin:0 auto;
 }
 
-#container {
+#container {                              /* Allt är centrerat på sidan i en box som är 960px */
     width: 960px;
     margin: auto;
 }
@@ -582,7 +582,7 @@ section .unslider {
     #firstleft #varor {
         border: 1px solid black;
         border-radius: 0;
-        margin: -10px; /* Negativ margin som gör att bordern går ihop med den yttre bordern trots att det finns en padding */
+        margin: -10px;
         padding: 10px;
         float: left;
         width: 100%;
