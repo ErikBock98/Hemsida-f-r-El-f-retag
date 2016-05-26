@@ -339,6 +339,7 @@ section .unslider {
         width: 300px;
         margin: 10px 0;
         border-radius: 0;
+        color:black;
     }
 
     #leftside a {
@@ -422,6 +423,7 @@ section .unslider {
         width: 100%;
         margin: 10px 0;
         border-radius: 0;
+        color:black;
     }
 
     #leftside a {
@@ -491,3 +493,72 @@ section .unslider {
 
 /* CSS för Kundvagnen */
 
+#firstleft {
+    float:left;
+    width:70%;
+    background-color:darkblue;
+    border:2px solid black;
+    margin:20px 0 20px 20px;
+    padding:10px;
+}
+
+#firstleft #varor {
+    border:1px solid black;
+    border-radius:0;
+    margin:-10px;               /* Negativ margin som gör att bordern går ihop med den yttre bordern trots att det finns en padding */
+    padding:10px;
+    float:left;
+    width:100%;
+}
+
+#firstleft .secondleft {
+    float:left;
+    width:50%;
+}
+
+#firstleft .secondright {
+    float:right;
+    width:15%;
+}
+
+#firstleft #varor #thirdleft {
+    float:left;
+}
+
+#firstleft #varor #thirdleft h2 {
+    margin:40px 0;
+}
+
+#firstleft #varor #thirdright {
+    float:right;
+}
+
+#firstleft #varor #thirdright h2 {
+    margin:40px 0;
+}
+
+#firstright {
+    float:left;
+    width:20%;
+    margin:120px 0;
+}
+
+#firstright a {
+    text-decoration:none;
+    border:1px solid black;
+    background-color:darkblue;
+    padding:10px;
+    font-size:20px;
+    margin:10px 40px;
+    float:left;
+}
+
+#alone{
+    text-decoration:none;
+    border:1px solid black;
+    background-color:darkblue;
+    padding:10px;
+    font-size:50px;
+    float:left;
+    margin: 0;
+}
