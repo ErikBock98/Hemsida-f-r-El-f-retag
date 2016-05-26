@@ -701,6 +701,14 @@ section .unslider {
         width: 100%;
     }
 
+    #OmOss h2 {
+        font-size:30px;
+    }
+
+    #OmOss p {
+        font-size:20px;
+    }
+
     #OmOss #big {
         float:left;
         width: 100%;
