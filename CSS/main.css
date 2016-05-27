@@ -765,7 +765,7 @@ section .unslider {
     footer {
         background-color: darkblue;
         border: 1px solid black;
-        width: 100%;
+        width: 95%;
         height: 200px;
         float: right;
         padding: 20px;
