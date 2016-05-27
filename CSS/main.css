@@ -14,32 +14,6 @@ body {
 
 }
 
-footer {
-    background-color:darkblue;
-    border: 1px solid black;
-    width:93%;
-    height:200px;
-    float:right;
-    padding:20px;
-    margin:10px;
-}
-
-footer h2 {
-    float:left;
-    clear:both;
-    width:100%
-}
-
-footer #leftp  {
-    float:left;
-    font-size:20px;
-}
-
-footer #rightp {
-    float:right;
-    font-size:20px;
-}
-
 .centerPicture{
     display:block;
     margin:0 auto;
@@ -749,6 +723,70 @@ section .unslider {
     #OmOss #bottomright {
         float: left;
         width: 100%;
+    }
+
+}
+
+
+/* CSS för footer */
+
+@media screen and (min-width : 1224px) {
+
+    footer {
+        background-color: darkblue;
+        border: 1px solid black;
+        width: 93%;
+        height: 200px;
+        float: right;
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    footer h2 {
+        float: left;
+        clear: both;
+        width: 100%
+    }
+
+    footer #leftp {
+        float: left;
+        font-size: 20px;
+    }
+
+    footer #rightp {
+        float: right;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width : 1224px) {
+
+    footer {
+        background-color: darkblue;
+        border: 1px solid black;
+        width: 93%;
+        height: 200px;
+        float: right;
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    footer h2 {
+        float: left;
+        clear: both;
+        width: 100%;
+        font-size:40px;
+    }
+
+    footer #leftp {
+        float: left;
+        font-size: 30px;
+    }
+
+    footer #rightp {
+        float: right;
+        font-size: 30px;
     }
 
 }
