@@ -71,20 +71,7 @@ nav h2 a {
     text-decoration: none;
 }
 
-/* CSS för bilder */
-
-@media screen and (min-width : 1224px) {
-
-    #row {
-        float: right;
-
-    }
-
-    section .rightpicture img {
-        width: 400px;
-        height: 300px;
-    }
-}
+/* CSS för bilderna på sidorna med flera produkter och startsidan */
 
 section .rightpicture {
     border: 1px black solid;
@@ -102,12 +89,22 @@ section .unslider {
 
 @media screen and (min-width : 1224px) {
 
-    section #leftpicture {
-        background-color: darkblue;
-        border: 1px solid black;
-        width: 500px;
-        height: 620px;
-        float: left;
+    #row {
+        float: right;
+
+    }
+
+    section .rightpicture img {
+        width: 400px;
+        height: 300px;
+    }                                               /* Då jag skriver min-width försöker jag påverka datorer */
+                                                    /* Medan max-width används för Telefon/Ipad. */
+    section #leftpicture {                          /* I de flesta fall ändrar jag bara storleken på bilder */
+        background-color: darkblue;                 /* Samt storleken på fonten i texten. */
+        border: 1px solid black;                    /* Mycket kod upprepas helt enkelt två gånger, men jag */
+        width: 500px;                               /* tycker att det var simplare att helt dela på de olika */
+        height: 620px;                              /* koderna för att göra det lättare att läsa. Dock så blir */
+        float: left;                                /* hyfsat mycket mera kod av det hela. */
         display: block;
         padding: 5px 5px 5px 5px;
         margin: 10px 0 10px 5px;
@@ -436,7 +433,7 @@ section .unslider {
     }
 
     #leftside #textlabel {
-        vertical-align: top;
+        vertical-align: top;                /* Får helt enkelt texten vid textarean att hålla sig till toppen av lådan */
     }
 
 }

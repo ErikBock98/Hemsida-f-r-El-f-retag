@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html>                     <!--Denna sida kom att användas som bas för de flesta andra sidorna -->
 
 <head>
 
@@ -9,9 +9,10 @@
 
     <title>Startsida</title>
 
-    <link rel="stylesheet" href="CSS/unslider.css">
+    <link rel="stylesheet" href="CSS/unslider.css">            <!-- Länkar till JS för att min slider ska funka -->
     <link rel="stylesheet" href="CSS/unslider-dots.css">
     <link rel="stylesheet" href="CSS/main.css">
+                                                                <!-- Länk till Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat|Passion+One|Candal' rel='stylesheet' type='text/css'>
 
 </head>
@@ -23,32 +24,32 @@
 <header>
 
     <form>
-        <input type="text" name="Searchbar">
+        <input type="text" name="Searchbar">                    <!-- En Searchbar som endast är där för design -->
         <input type="submit" name="submit" value="Sök">
     </form>
 
     <div id="topright">
 
-    <a href="OmOss.html" ><h2>Om oss</h2></a>
+    <a href="OmOss.html" ><h2>Om oss</h2></a>              <!-- Länkar för att man lätt ska kunna ta sig runt på sidan -->
     <a href="Kundvagn.html" ><h2>Kundvagn</h2></a>
     <a href="Support.html" ><h2>Support</h2></a>
 
     </div>
 
-    <h1>Elektronik & Media AB</h1>
+    <h1>Elektronik & Media AB</h1>                        <!-- Logo -->
 
 </header>
 
 <nav>
-    <a href="TV-produkter.html" ><h2>TV</h2></a>
+    <a href="TV-produkter.html" ><h2>TV</h2></a>            <!-- Länkar till produktsidorna -->
     <a href="Dator-produkter.html" ><h2>Datorer</h2></a>
     <a href="Vitvaro-produkter.html" ><h2>Vitvaror</h2></a>
     <a href="Foto-produkter.html" ><h2>Foto</h2></a>
     <a href="Annat-produkter.html" ><h2>Annat</h2></a>
 </nav>
 
-<section>
-
+<section>                       <!-- Section med allt innehåll på denna sida -->
+                                <!-- Detta är de del av koden som varierar mest från sida till sida -->
     <div id="row">
 
     <article class="rightpicture">
@@ -63,7 +64,7 @@
 
     <div id="leftpicture">
 
-    <article class="my-slider">
+    <article class="my-slider">         <!-- Html koden för min slider och dess bilder -->
     <ul>
         <li><a href="Dator-produkter.html"><img class="centerPicture" src="IMG/BärbarDator.png" alt="Bärbar Dator"/></a></li>
         <li><a href="Annat-produkter.html"><img class="centerPicture" src="IMG/IPhone.png" alt="IPhone"/></a></li>
@@ -84,7 +85,7 @@
 <script src="JavaScript/unslider.js"></script>
 
 <script>
-    jQuery(document).ready(function($) {
+    jQuery(document).ready(function($) {                <!-- Min inhämtade Javascript -->
         $('.my-slider').unslider({
 
             autoplay: true,
@@ -93,7 +94,7 @@
     });
 </script>
 
-<script>
+<script>                <!--  -->
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
