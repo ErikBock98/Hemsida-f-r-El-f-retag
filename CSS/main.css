@@ -57,10 +57,15 @@ header form input {
 }
 
 /* CSS för menyrad */
+
+nav {
+    margin:0 0 0 30px;
+}
+
 nav h2 {
     display: inline-block;
-    margin: 0 8px;
-    width: 17.5%;
+    margin: 0 auto;
+    width: 18.5%;
     text-align: center;
     border: 1px solid black;
     background-color: darkblue;
@@ -103,7 +108,7 @@ section .unslider {
         background-color: darkblue;                 /* Samt storleken på fonten i texten. */
         border: 1px solid black;                    /* Mycket kod upprepas helt enkelt två gånger, men jag */
         width: 500px;                               /* tycker att det var simplare att helt dela på de olika */
-        height: 620px;                              /* koderna för att göra det lättare att läsa. Dock så blir */
+        height: 620px;                              /* koderna för att göra det lättare att läsa. Dock så blir det */
         float: left;                                /* hyfsat mycket mera kod av det hela. */
         display: block;
         padding: 5px 5px 5px 5px;
@@ -304,6 +309,7 @@ section .unslider {
     #rightside {
         float: right;
         margin: 20px 0;
+        width:45%;
     }
 
     #leftside {
@@ -311,18 +317,19 @@ section .unslider {
         background-color: darkblue;
         margin: 20px 0;
         border: 1px solid black;
+        width:45%;
     }
 
     #rightside img {
-        width: 496px;
-        height: 400px;
+        width: 100%;
         margin: 20px 10px;
         border: 1px ridge black;
+        float:right;
     }
 
     #leftside form {
         margin: 20px 10px;
-        width: 420px;
+        width: 95%;
     }
 
     #leftside input {
@@ -559,6 +566,7 @@ section .unslider {
         font-size: 50px;
         float: left;
         margin: 0;
+        width:17%;
 
     }
 
